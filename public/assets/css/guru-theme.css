@@ -1,0 +1,45 @@
+:root {
+    --primary: #3b82f6;
+    --primary-dark: #1e3a8a;
+    --light: #f8fafc;
+    --dark: #1e293b;
+    --secondary: #374151;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-primary:hover {
+    background-color: #2563eb;
+    border-color: #2563eb;
+}
+
+.text-primary {
+    color: var(--primary) !important;
+}
+
+.bg-primary {
+    background-color: var(--primary) !important;
+}
+
+.navbar-brand h3 {
+    color: var(--primary) !important;
+}
+
+.sidebar .navbar-nav .nav-link.active {
+    background-color: var(--primary-dark);
+}
+
+.sidebar .navbar-nav .nav-link:hover {
+    background-color: var(--primary-dark);
+}
+
+.back-to-top {
+    background-color: var(--primary);
+}
+
+.spinner-border {
+    color: var(--primary) !important;
+}
